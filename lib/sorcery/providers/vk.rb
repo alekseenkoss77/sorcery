@@ -57,7 +57,6 @@ module Sorcery
 
         get_access_token(args, token_url: token_path, token_method: :post)
       end
-
     end
   end
 end

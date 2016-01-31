@@ -18,6 +18,7 @@ module Sorcery
         @site          = 'https://login.salesforce.com'
         @auth_url      = '/services/oauth2/authorize'
         @token_url     = '/services/oauth2/token'
+        @response_type = 'token'
       end
 
       def get_user_hash(access_token)
